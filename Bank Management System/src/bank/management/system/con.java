@@ -8,7 +8,7 @@ public class con
     public con() throws Exception
     {
         Class.forName("com.mysql.cj.jdbc.Driver");
-        Connection c=DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem","root","SaiBaba7781@");
+        Connection c=DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem","root","password");
         stm=c.createStatement();    
           
     }
